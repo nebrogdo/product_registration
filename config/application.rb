@@ -11,6 +11,11 @@ end
 
 module ProductRegistration
   class Application < Rails::Application
+    
+    # Shopify API connection credentials:
+    config.shopify.api_key = "d864746b5d32dbfb82eb43459eda11db"
+    config.shopify.secret = "1aa2aa9b0554b9ba17213d2c98fd163f"
+    
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
